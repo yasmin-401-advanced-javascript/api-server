@@ -5,7 +5,7 @@ const mockRequest = supertest(server);
 
 describe('404 module', () => {
   it('should respond with 404 on invalied route (status)', () => {
-    return mockRequest.get('/api/v1/category').then((results) => {
+    return mockRequest.get('/categories').then((results) => {
       expect(results.status).toBe(404);
     });
   });
