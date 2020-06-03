@@ -13,7 +13,7 @@ we will create an `API` to generate data using:
 
 ### Links and Resources :paperclip:
 ### Documentation
-- [Submission PR](https://github.com/yasmin-401-advanced-javascript/api-server/pull/3)
+- [Submission PR](https://github.com/yasmin-401-advanced-javascript/api-server/pull/4)
 - [Swagger](https://app.swaggerhub.com/apis/yasminadaileh1/api-lab8/0.1)
 
 ## Library Used
@@ -56,5 +56,5 @@ in the **Ubuntu** just type:
 
 ## UML
 
-![UML](./img/uml.jpg)
+![UML](./img/uml1.jpg)
 -------------------------------------------------------------------------

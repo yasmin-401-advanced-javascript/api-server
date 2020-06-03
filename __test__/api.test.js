@@ -16,7 +16,7 @@ describe('category API', () => {
       .then((data) => {
         const record = data.body;
         Object.keys(obj).forEach((key) => {
-          expect(record[key]).toEqual(obj[key]);
+          expect(record[key]).toEqual(data[key]);
         });
       });
   });
