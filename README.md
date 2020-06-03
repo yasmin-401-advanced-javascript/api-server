@@ -12,7 +12,7 @@ we will create an `API` to generate data using:
 ### Author: Yasmin Adaileh :sunglasses:
 
 ### Links and Resources :paperclip:
-
+### Documentation
 - [Submission PR](https://github.com/yasmin-401-advanced-javascript/api-server/pull/3)
 - [Swagger](https://app.swaggerhub.com/apis/yasminadaileh1/api-lab8/0.1)
 
