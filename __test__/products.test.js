@@ -3,11 +3,9 @@ require('@code-fellows/supergoose');
 const mongo = require('../lib/models/products/products.collection.js');
 
 describe('product Model', () => {
-  let id;
   const obj = {category: 'bbb',  name: 'tops' , display_name: 'T-shirt', description: 'COLOR BLACK'};
   it('create method (post)', () => {
     return mongo.create(obj).then((result) => {
-      id = result._id;
       Object.keys(obj).forEach((key) => {
         expect(result[key]).toEqual(obj[key]);
       });
