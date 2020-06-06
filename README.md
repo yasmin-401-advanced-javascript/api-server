@@ -12,9 +12,14 @@ we will create an `API` to generate data using:
 ### Author: Yasmin Adaileh :sunglasses:
 
 ### Links and Resources :paperclip:
+
 ### Documentation
 - [Submission PR](https://github.com/yasmin-401-advanced-javascript/api-server/pull/4)
 - [Swagger](https://app.swaggerhub.com/apis/yasminadaileh1/api-lab8/0.1)
+
+## Deployment Heroku
+- [categories](https://api-server-yasmin.herokuapp.com/api/v1/categories)
+- [products](https://api-server-yasmin.herokuapp.com/api/v1/products)
 
 ## Library Used
 
