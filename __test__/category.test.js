@@ -3,11 +3,9 @@ require('@code-fellows/supergoose');
 const mongo = require('../lib/models/categories/categories.collection.js');
 
 describe('category Model', () => {
-  let id;
   const obj = { name: 'tops' , display_name: 'T-shirt', description: 'COLOR BLACK'};
   it('create method (post)', () => {
     return mongo.create(obj).then((result) => {
-      id = result._id;
       Object.keys(obj).forEach((key) => {
         expect(result[key]).toEqual(obj[key]);
       });
