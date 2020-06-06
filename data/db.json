@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "name": "top",
+      "display_name": "top",
+      "description": "top",
+      "id": 3
+    },
+    {
+      "name": "shoe",
+      "display_name": "shoe",
+      "description": "shoe",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "category": "hat",
+      "name": "tat1",
+      "display_name": "hat1",
+      "description": " black",
+      "id": 3
+    },
+    {
+      "category": "hat",
+      "name": "flower",
+      "display_name": "hat",
+      "description": " brown",
+      "id": 4
+    },
+    {
+      "category": "hat",
+      "name": "hatsun",
+      "display_name": "hat4",
+      "description": " grey",
+      "id": 5
+    },
+    {
+      "category": "top",
+      "name": "t-shirt",
+      "display_name": "t-shirt",
+      "description": " blue",
+      "id": 6
+    },
+    {
+      "category": "top",
+      "name": "T-shirt",
+      "display_name": "fan",
+      "description": " blue",
+      "id": 7
+    }
+  ]
+}
